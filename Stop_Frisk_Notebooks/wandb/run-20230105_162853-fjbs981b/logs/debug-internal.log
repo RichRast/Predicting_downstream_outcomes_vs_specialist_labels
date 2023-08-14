@@ -1,0 +1,722 @@
+2023-01-05 16:28:53,430 INFO    StreamThr :2969265 [internal.py:wandb_internal():87] W&B internal server running at pid: 2969265, started at: 2023-01-05 16:28:53.427998
+2023-01-05 16:28:53,432 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: status
+2023-01-05 16:28:53,433 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: status
+2023-01-05 16:28:53,441 DEBUG   SenderThread:2969265 [sender.py:send():303] send: header
+2023-01-05 16:28:53,442 INFO    WriterThread:2969265 [datastore.py:open_for_write():75] open: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/run-fjbs981b.wandb
+2023-01-05 16:28:53,834 DEBUG   SenderThread:2969265 [sender.py:send():303] send: run
+2023-01-05 16:28:54,071 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: check_version
+2023-01-05 16:28:54,072 INFO    SenderThread:2969265 [dir_watcher.py:__init__():216] watching files in: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files
+2023-01-05 16:28:54,072 INFO    SenderThread:2969265 [sender.py:_start_run_threads():928] run started: fjbs981b with start time 1672954133.434474
+2023-01-05 16:28:54,072 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:28:54,073 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:28:54,073 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: check_version
+2023-01-05 16:28:54,139 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: run_start
+2023-01-05 16:28:54,145 DEBUG   HandlerThread:2969265 [system_info.py:__init__():31] System info init
+2023-01-05 16:28:54,145 DEBUG   HandlerThread:2969265 [system_info.py:__init__():46] System info init done
+2023-01-05 16:28:54,145 INFO    HandlerThread:2969265 [system_monitor.py:start():150] Starting system monitor
+2023-01-05 16:28:54,145 INFO    SystemMonitor:2969265 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-05 16:28:54,145 INFO    HandlerThread:2969265 [system_monitor.py:probe():171] Collecting system info
+2023-01-05 16:28:54,149 INFO    SystemMonitor:2969265 [interfaces.py:start():168] Started cpu
+2023-01-05 16:28:54,150 INFO    SystemMonitor:2969265 [interfaces.py:start():168] Started disk
+2023-01-05 16:28:54,151 INFO    SystemMonitor:2969265 [interfaces.py:start():168] Started gpu
+2023-01-05 16:28:54,151 INFO    SystemMonitor:2969265 [interfaces.py:start():168] Started memory
+2023-01-05 16:28:54,151 INFO    SystemMonitor:2969265 [interfaces.py:start():168] Started network
+2023-01-05 16:28:54,183 DEBUG   HandlerThread:2969265 [system_info.py:probe():195] Probing system
+2023-01-05 16:28:54,191 DEBUG   HandlerThread:2969265 [system_info.py:_probe_git():180] Probing git
+2023-01-05 16:28:54,204 DEBUG   HandlerThread:2969265 [system_info.py:_probe_git():188] Probing git done
+2023-01-05 16:28:54,204 DEBUG   HandlerThread:2969265 [system_info.py:probe():241] Probing system done
+2023-01-05 16:28:54,204 DEBUG   HandlerThread:2969265 [system_monitor.py:probe():180] {'os': 'Linux-5.4.0-135-generic-x86_64-with-glibc2.10', 'python': '3.8.8', 'heartbeatAt': '2023-01-05T21:28:54.183718', 'startedAt': '2023-01-05T21:28:53.408822', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/epierson9/learning_from_doctor_and_patient.git', 'commit': 'f3901c10403c408addb2d646aeaa167029b07d5a'}, 'email': 'richa2910@gmail.com', 'root': '/share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient', 'host': 'klara.tech.cornell.edu', 'username': 'rr568', 'executable': '/home/rr568/.conda/envs/icu-benchmark/bin/python', 'cpu_count': 56, 'cpu_count_logical': 56, 'cpu_freq': {'current': 1563.3188392857141, 'min': 1000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 1000.075, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.381, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.125, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.272, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.456, 'min': 1000.0, 'max': 4000.0}, {'current': 2559.135, 'min': 1000.0, 'max': 4000.0}, {'current': 999.9, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.004, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.565, 'min': 1000.0, 'max': 4000.0}, {'current': 2303.817, 'min': 1000.0, 'max': 4000.0}, {'current': 2700.681, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.096, 'min': 1000.0, 'max': 4000.0}, {'current': 999.257, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.344, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.264, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.048, 'min': 1000.0, 'max': 4000.0}, {'current': 999.516, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.435, 'min': 1000.0, 'max': 4000.0}, {'current': 3731.087, 'min': 1000.0, 'max': 4000.0}, {'current': 1700.274, 'min': 1000.0, 'max': 4000.0}, {'current': 999.889, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.169, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.314, 'min': 1000.0, 'max': 4000.0}, {'current': 1976.025, 'min': 1000.0, 'max': 4000.0}, {'current': 999.996, 'min': 1000.0, 'max': 4000.0}, {'current': 3729.245, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.75, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.538, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.082, 'min': 1000.0, 'max': 4000.0}, {'current': 999.922, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.287, 'min': 1000.0, 'max': 4000.0}, {'current': 999.776, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.396, 'min': 1000.0, 'max': 4000.0}, {'current': 999.538, 'min': 1000.0, 'max': 4000.0}, {'current': 2992.94, 'min': 1000.0, 'max': 4000.0}, {'current': 2000.381, 'min': 1000.0, 'max': 4000.0}, {'current': 2299.977, 'min': 1000.0, 'max': 4000.0}, {'current': 3737.838, 'min': 1000.0, 'max': 4000.0}, {'current': 3737.886, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.104, 'min': 1000.0, 'max': 4000.0}, {'current': 3557.102, 'min': 1000.0, 'max': 4000.0}, {'current': 2300.188, 'min': 1000.0, 'max': 4000.0}, {'current': 3735.692, 'min': 1000.0, 'max': 4000.0}, {'current': 1500.86, 'min': 1000.0, 'max': 4000.0}, {'current': 2701.195, 'min': 1000.0, 'max': 4000.0}, {'current': 1400.929, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.053, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.779, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.929, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.595, 'min': 1000.0, 'max': 4000.0}, {'current': 999.947, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.587, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.632, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.325, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.35, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.447, 'min': 1000.0, 'max': 4000.0}], 'disk': {'total': 79.9609375, 'used': 36.757301330566406}, 'memory': {'total': 1007.5650444030762}}
+2023-01-05 16:28:54,204 INFO    HandlerThread:2969265 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-05 16:28:54,204 INFO    HandlerThread:2969265 [system_monitor.py:probe():184] Publishing system info
+2023-01-05 16:28:54,204 DEBUG   HandlerThread:2969265 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-05 16:28:54,205 DEBUG   HandlerThread:2969265 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-05 16:28:54,205 DEBUG   HandlerThread:2969265 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-05 16:28:55,074 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/conda-environment.yaml
+2023-01-05 16:28:55,075 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:28:55,075 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/requirements.txt
+2023-01-05 16:28:56,958 DEBUG   HandlerThread:2969265 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-05 16:28:56,960 INFO    HandlerThread:2969265 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-05 16:28:56,967 DEBUG   SenderThread:2969265 [sender.py:send():303] send: files
+2023-01-05 16:28:56,968 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-05 16:28:56,969 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 16:28:56,969 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 16:28:57,055 DEBUG   SenderThread:2969265 [sender.py:send():303] send: telemetry
+2023-01-05 16:28:57,076 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/conda-environment.yaml
+2023-01-05 16:28:57,076 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-metadata.json
+2023-01-05 16:28:57,344 INFO    Thread-16 :2969265 [upload_job.py:push():143] Uploaded file /tmp/tmpxyqe6o6iwandb/20tll5x7-wandb-metadata.json
+2023-01-05 16:28:58,078 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:00,081 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:01,082 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:13,059 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 16:29:13,060 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 16:29:14,621 DEBUG   SenderThread:2969265 [sender.py:send():303] send: telemetry
+2023-01-05 16:29:14,657 DEBUG   SenderThread:2969265 [sender.py:send():303] send: config
+2023-01-05 16:29:14,658 DEBUG   SenderThread:2969265 [sender.py:send():303] send: metric
+2023-01-05 16:29:14,658 DEBUG   SenderThread:2969265 [sender.py:send():303] send: telemetry
+2023-01-05 16:29:14,658 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:14,659 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:14,659 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:14,659 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:14,662 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:14,909 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:14,910 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:14,910 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:14,910 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:14,912 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:15,093 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:15,187 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,187 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,188 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:15,188 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:15,189 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:15,454 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,455 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,455 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:15,455 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:15,457 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:15,692 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,692 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,693 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:15,693 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:15,694 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:15,958 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,958 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:15,958 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:15,958 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:15,960 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:16,094 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:16,218 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,219 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,219 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:16,219 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:16,221 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:16,480 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,481 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,481 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:16,481 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:16,483 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:16,737 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,737 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:16,738 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:16,738 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:16,740 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:17,029 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,029 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,030 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:17,030 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:17,032 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:17,095 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:17,095 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:17,281 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,281 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,282 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:17,282 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:17,283 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:17,552 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,553 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,553 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:17,553 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:17,555 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:17,827 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,827 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:17,827 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:17,827 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:17,836 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:18,041 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,076 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,076 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:18,077 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:18,086 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:18,098 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:18,328 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,354 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,355 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:18,355 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:18,361 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:18,620 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,625 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,625 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:18,625 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:18,627 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:18,892 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,899 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:18,900 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:18,900 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:18,902 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:19,099 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:19,099 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:19,180 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,181 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,181 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:19,181 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:19,183 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:19,486 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,487 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,487 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:19,487 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:19,489 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:19,750 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,750 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:19,751 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:19,751 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:19,752 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:20,014 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,014 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,014 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:20,015 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:20,016 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:20,100 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:20,298 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,298 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,299 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:20,299 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:20,300 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:20,571 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,571 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,572 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:20,572 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:20,573 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:20,891 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,891 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:20,892 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:20,892 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:20,893 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:21,101 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:21,101 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:21,144 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,190 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,190 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:21,190 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:21,193 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:21,433 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,438 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,439 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:21,439 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:21,440 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:21,733 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,734 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:21,734 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:21,734 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:21,736 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:22,012 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,012 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,013 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:22,013 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:22,014 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:22,102 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:22,302 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,302 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,302 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:22,302 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:22,304 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:22,569 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,569 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,569 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:22,570 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:22,571 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:22,864 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,864 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:22,864 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:22,865 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:22,866 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:23,103 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:23,103 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:23,134 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,134 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,135 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:23,135 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:23,136 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:23,405 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,405 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,406 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:23,406 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:23,409 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:23,678 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,687 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:23,688 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:23,810 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:23,811 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:24,020 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,021 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,021 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:24,021 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:24,023 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:24,104 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/config.yaml
+2023-01-05 16:29:24,104 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:24,256 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,265 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,266 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:24,266 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:24,268 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:24,511 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,545 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,546 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:24,546 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:24,547 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:24,805 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,828 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:24,828 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:24,828 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:24,830 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:25,105 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:25,105 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:25,124 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,125 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,125 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:25,125 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:25,127 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:25,410 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,411 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,411 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:25,411 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:25,414 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:25,712 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,713 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:25,713 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:25,713 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:25,715 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:26,106 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:26,127 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,128 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,128 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:26,128 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:26,130 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:26,443 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,444 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,444 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:26,444 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:26,446 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:26,731 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,731 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:26,732 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:26,732 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:26,733 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:27,066 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,066 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,066 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:27,066 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:27,068 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:27,107 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:27,107 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:27,363 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,363 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,363 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:27,364 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:27,365 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:27,661 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,661 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:27,661 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:27,661 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:27,664 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:27,956 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,031 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,032 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:28,032 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:28,042 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:28,110 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:28,151 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 16:29:28,151 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 16:29:28,372 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,375 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,375 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:28,376 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:28,377 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:28,733 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,800 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:28,800 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:28,800 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:28,802 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:29,106 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,107 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,107 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:29,107 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:29,109 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:29,110 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:29,111 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:29,386 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,386 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,387 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:29,387 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:29,388 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:29,669 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,684 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,684 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:29,684 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:29,687 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:29,985 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,986 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:29,986 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:29,986 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:29,988 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:30,111 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:30,276 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,276 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,277 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:30,277 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:30,278 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:30,557 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,558 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,558 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:30,558 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:30,560 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:30,980 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,980 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:30,980 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:30,980 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:30,982 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:31,113 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:31,113 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:31,240 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,281 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,281 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:31,281 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:31,283 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:31,563 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,563 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,563 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:31,564 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:31,565 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:31,858 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,859 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:31,859 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:31,859 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:31,862 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:32,113 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:32,198 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,198 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,199 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:32,199 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:32,200 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:32,449 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,454 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,455 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:32,455 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:32,456 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:32,771 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,771 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:32,771 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:32,772 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:32,773 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:33,061 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,062 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,062 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:33,062 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:33,064 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:33,115 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:33,115 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:33,357 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,372 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,372 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:33,372 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:33,374 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:33,672 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,673 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,673 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:33,673 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:33,675 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:33,949 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,955 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:33,955 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:33,955 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:33,958 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:34,115 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:34,255 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,255 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,256 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:34,256 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:34,258 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:34,575 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,575 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,576 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:34,576 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:34,577 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:34,852 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,853 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:34,853 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:34,853 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:34,854 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:35,117 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:35,117 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:35,147 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,147 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,148 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:35,148 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:35,149 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:35,429 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,430 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,430 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:35,430 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:35,432 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:35,664 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,699 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:35,699 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:35,699 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:35,701 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:35,996 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,038 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,038 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:36,038 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:36,041 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:36,118 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:36,253 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,293 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,294 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:36,294 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:36,295 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:36,623 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,623 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,624 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:36,624 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:36,626 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:36,904 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,904 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:36,904 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:36,904 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:36,906 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:37,119 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:37,119 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:37,211 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,211 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,211 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:37,211 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:37,213 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:37,540 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,541 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,541 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:37,541 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:37,543 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:37,830 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,831 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:37,831 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:37,831 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:37,833 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:38,120 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:38,166 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,167 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,167 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:38,167 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:38,170 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:38,431 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,432 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,432 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:38,432 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:38,433 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:38,717 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,725 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:38,725 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:38,726 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:38,727 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:38,985 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,016 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,017 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:39,017 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:39,018 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:39,121 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:39,121 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:39,321 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,321 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,322 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:39,322 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:39,324 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:39,599 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,603 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,603 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:39,603 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:39,604 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:39,929 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,929 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:39,930 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:39,930 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:39,931 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:40,122 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:40,166 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,223 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,224 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:40,224 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:40,226 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:40,485 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,486 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,486 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:40,486 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:40,488 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:40,770 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,777 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:40,778 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:40,778 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:40,779 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:41,087 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,087 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,087 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:41,088 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:41,089 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:41,123 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:41,123 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:41,402 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,402 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,402 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:41,402 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:41,404 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:41,792 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,801 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:41,801 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:41,801 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:41,803 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:42,124 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:42,142 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,142 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,142 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:42,143 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:42,144 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:42,432 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,445 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,445 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:42,445 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:42,447 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:42,741 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,749 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:42,749 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:42,749 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:42,751 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:43,056 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,056 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,057 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:43,057 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:43,059 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:43,125 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:43,125 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:43,231 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 16:29:43,231 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 16:29:43,370 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,371 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,371 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:43,371 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:43,373 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:43,731 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,731 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:43,732 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:43,732 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:43,733 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:44,103 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:44,103 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 16:29:44,104 DEBUG   SenderThread:2969265 [sender.py:send():303] send: history
+2023-01-05 16:29:44,104 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:44,106 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:44,126 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:44,148 DEBUG   SenderThread:2969265 [sender.py:send():303] send: telemetry
+2023-01-05 16:29:44,165 DEBUG   SenderThread:2969265 [sender.py:send():303] send: exit
+2023-01-05 16:29:44,165 INFO    SenderThread:2969265 [sender.py:send_exit():442] handling exit code: 1
+2023-01-05 16:29:44,165 INFO    SenderThread:2969265 [sender.py:send_exit():444] handling runtime: 50
+2023-01-05 16:29:44,167 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:44,167 INFO    SenderThread:2969265 [sender.py:send_exit():450] send defer
+2023-01-05 16:29:44,167 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,167 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-05 16:29:44,167 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,167 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-05 16:29:44,167 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 1
+2023-01-05 16:29:44,167 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,167 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-05 16:29:44,167 INFO    HandlerThread:2969265 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-05 16:29:44,168 DEBUG   SystemMonitor:2969265 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-05 16:29:44,168 DEBUG   SystemMonitor:2969265 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-05 16:29:44,168 DEBUG   SystemMonitor:2969265 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-05 16:29:44,169 INFO    HandlerThread:2969265 [interfaces.py:finish():175] Joined cpu
+2023-01-05 16:29:44,169 INFO    HandlerThread:2969265 [interfaces.py:finish():175] Joined disk
+2023-01-05 16:29:44,169 INFO    HandlerThread:2969265 [interfaces.py:finish():175] Joined gpu
+2023-01-05 16:29:44,169 INFO    HandlerThread:2969265 [interfaces.py:finish():175] Joined memory
+2023-01-05 16:29:44,169 INFO    HandlerThread:2969265 [interfaces.py:finish():175] Joined network
+2023-01-05 16:29:44,169 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,169 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-05 16:29:44,169 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 2
+2023-01-05 16:29:44,169 DEBUG   SenderThread:2969265 [sender.py:send():303] send: stats
+2023-01-05 16:29:44,170 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,170 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-05 16:29:44,170 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,170 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-05 16:29:44,170 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 3
+2023-01-05 16:29:44,170 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,170 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-05 16:29:44,170 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,170 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-05 16:29:44,170 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 4
+2023-01-05 16:29:44,170 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,170 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-05 16:29:44,170 DEBUG   SenderThread:2969265 [sender.py:send():303] send: summary
+2023-01-05 16:29:44,172 INFO    SenderThread:2969265 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:29:44,172 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,172 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-05 16:29:44,172 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 5
+2023-01-05 16:29:44,172 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,172 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-05 16:29:44,172 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,172 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-05 16:29:44,283 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 6
+2023-01-05 16:29:44,283 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:44,283 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-05 16:29:44,283 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:44,283 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-05 16:29:45,128 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/config.yaml
+2023-01-05 16:29:45,128 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:45,129 INFO    Thread-13 :2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:45,167 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-05 16:29:46,268 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 7
+2023-01-05 16:29:46,268 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: poll_exit
+2023-01-05 16:29:46,269 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:46,269 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-05 16:29:46,270 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:46,270 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-05 16:29:46,270 INFO    SenderThread:2969265 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-05 16:29:47,131 INFO    SenderThread:2969265 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:47,131 INFO    SenderThread:2969265 [dir_watcher.py:finish():392] scan: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files
+2023-01-05 16:29:47,132 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/config.yaml config.yaml
+2023-01-05 16:29:47,132 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json wandb-summary.json
+2023-01-05 16:29:47,133 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/requirements.txt requirements.txt
+2023-01-05 16:29:47,133 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/conda-environment.yaml conda-environment.yaml
+2023-01-05 16:29:47,133 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-metadata.json wandb-metadata.json
+2023-01-05 16:29:47,133 INFO    SenderThread:2969265 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log output.log
+2023-01-05 16:29:47,133 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 8
+2023-01-05 16:29:47,134 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:47,134 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-05 16:29:47,135 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:47,135 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-05 16:29:47,135 INFO    SenderThread:2969265 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-05 16:29:47,507 INFO    Thread-18 :2969265 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/wandb-summary.json
+2023-01-05 16:29:47,508 INFO    Thread-19 :2969265 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/requirements.txt
+2023-01-05 16:29:47,556 INFO    Thread-20 :2969265 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/conda-environment.yaml
+2023-01-05 16:29:47,565 INFO    Thread-17 :2969265 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/config.yaml
+2023-01-05 16:29:47,574 INFO    Thread-21 :2969265 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/files/output.log
+2023-01-05 16:29:47,774 INFO    Thread-12 :2969265 [sender.py:transition_state():463] send defer: 9
+2023-01-05 16:29:47,775 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:47,775 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-05 16:29:47,775 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:47,776 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-05 16:29:47,776 INFO    SenderThread:2969265 [file_pusher.py:join():173] waiting for file pusher
+2023-01-05 16:29:47,776 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 10
+2023-01-05 16:29:47,776 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:47,776 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-05 16:29:47,776 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:47,777 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-05 16:29:47,843 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 11
+2023-01-05 16:29:47,844 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:47,844 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-05 16:29:47,844 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:47,844 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-05 16:29:47,844 INFO    SenderThread:2969265 [sender.py:transition_state():463] send defer: 12
+2023-01-05 16:29:47,845 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:29:47,845 INFO    HandlerThread:2969265 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-05 16:29:47,845 DEBUG   SenderThread:2969265 [sender.py:send():303] send: final
+2023-01-05 16:29:47,845 DEBUG   SenderThread:2969265 [sender.py:send():303] send: footer
+2023-01-05 16:29:47,845 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:29:47,845 INFO    SenderThread:2969265 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-05 16:29:47,847 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-05 16:29:47,848 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: server_info
+2023-01-05 16:29:47,848 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-05 16:29:47,848 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-05 16:29:47,851 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: poll_exit
+2023-01-05 16:29:47,851 DEBUG   SenderThread:2969265 [sender.py:send_request():317] send_request: server_info
+2023-01-05 16:29:48,014 DEBUG   HandlerThread:2969265 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-05 16:29:48,014 INFO    HandlerThread:2969265 [handler.py:finish():814] shutting down handler
+2023-01-05 16:29:48,845 INFO    WriterThread:2969265 [datastore.py:close():279] close: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_162853-fjbs981b/run-fjbs981b.wandb
+2023-01-05 16:29:49,016 INFO    SenderThread:2969265 [sender.py:finish():1331] shutting down sender
+2023-01-05 16:29:49,016 INFO    SenderThread:2969265 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-05 16:29:49,017 INFO    SenderThread:2969265 [file_pusher.py:join():173] waiting for file pusher
+2023-01-05 16:29:51,832 INFO    MainThread:2969265 [internal.py:handle_exit():77] Internal process exited

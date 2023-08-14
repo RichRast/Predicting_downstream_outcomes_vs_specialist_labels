@@ -1,0 +1,48 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.6
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.8
+    start_time: 1672954661.380494
+    t:
+      1:
+      - 1
+      - 5
+      - 8
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 8
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      - 37
+      4: 3.8.8
+      5: 0.13.6
+      8:
+      - 1
+      - 5
+colsample_bytree:
+  desc: null
+  value: 0.662029944767099
+early_stopping_rounds:
+  desc: null
+  value: 30
+num_leaves:
+  desc: null
+  value: 61
+subsample:
+  desc: null
+  value: 0.8406461892330983
+wandb_nb:
+  desc: null
+  value: wandb_stopAndFrisk

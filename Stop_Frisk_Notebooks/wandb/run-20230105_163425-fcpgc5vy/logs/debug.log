@@ -1,0 +1,37 @@
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_setup.py:_flush():68] Configure stats pid to 2919589
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_setup.py:_flush():68] Loading settings from /home/rr568/.config/wandb/settings
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_setup.py:_flush():68] Loading settings from /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/settings
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'StopAndFrisk_T', 'entity': 'rr568', 'root_dir': '/share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks', 'silent': 'true', 'sweep_id': 'rjasjn3n', 'run_id': 'fcpgc5vy', 'sweep_param_path': '/share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/sweep-rjasjn3n/config-fcpgc5vy.yaml'}
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_init.py:_log_setup():476] Logging user logs to /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163425-fcpgc5vy/logs/debug.log
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_init.py:_log_setup():477] Logging internal logs to /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163425-fcpgc5vy/logs/debug-internal.log
+2023-01-05 16:34:25,569 INFO    Thread-54 :2919589 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc14a4ca3a0>
+2023-01-05 16:34:25,570 INFO    Thread-54 :2919589 [wandb_init.py:init():516] calling init triggers
+2023-01-05 16:34:25,570 INFO    Thread-54 :2919589 [wandb_init.py:init():519] wandb.init called with sweep_config: {'colsample_bytree': 0.5052766008097228, 'early_stopping_rounds': 20, 'num_leaves': 69, 'subsample': 0.9519071518722312}
+config: {}
+2023-01-05 16:34:25,570 INFO    Thread-54 :2919589 [wandb_init.py:init():569] starting backend
+2023-01-05 16:34:25,570 INFO    Thread-54 :2919589 [wandb_init.py:init():573] setting up manager
+2023-01-05 16:34:25,576 INFO    Thread-54 :2919589 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-05 16:34:25,584 INFO    Thread-54 :2919589 [wandb_init.py:init():580] backend started and connected
+2023-01-05 16:34:25,591 INFO    Thread-54 :2919589 [wandb_run.py:_config_callback():1163] config_cb None None {'colsample_bytree': 0.5052766008097228, 'early_stopping_rounds': 20, 'num_leaves': 69, 'subsample': 0.9519071518722312}
+2023-01-05 16:34:25,594 INFO    Thread-54 :2919589 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-05 16:34:25,594 INFO    Thread-54 :2919589 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-05 16:34:25,594 INFO    Thread-54 :2919589 [wandb_init.py:init():658] updated telemetry
+2023-01-05 16:34:25,983 INFO    Thread-54 :2919589 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-05 16:34:26,225 INFO    Thread-54 :2919589 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-05 16:34:26,285 INFO    Thread-54 :2919589 [wandb_run.py:_on_init():2010] got version response upgrade_message: "wandb version 0.13.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-01-05 16:34:26,285 INFO    Thread-54 :2919589 [wandb_init.py:init():728] starting run threads in backend
+2023-01-05 16:34:29,606 INFO    Thread-54 :2919589 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-05 16:34:29,606 INFO    Thread-54 :2919589 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-05 16:34:29,607 INFO    Thread-54 :2919589 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-05 16:34:29,607 INFO    Thread-54 :2919589 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-05 16:34:29,607 INFO    Thread-54 :2919589 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-05 16:34:45,897 INFO    Thread-54 :2919589 [wandb_run.py:_config_callback():1163] config_cb None None {'boosting_type': 'gbdt', 'learning_rate': 0.01, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_jobs': -1, 'random_state': None, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'subsample_for_bin': 200000, 'subsample_freq': 0, 'verbose': -1, 'objective': 'binary', 'metric': ['binary'], 'num_iterations': 100, 'early_stopping_round': 20}
+2023-01-05 16:34:57,027 INFO    Thread-54 :2919589 [wandb_run.py:_finish():1753] finishing run rr568/StopAndFrisk_T/fcpgc5vy
+2023-01-05 16:34:57,028 ERROR   Thread-54 :2919589 [jupyter.py:save_history():440] Run pip install nbformat to save notebook history
+2023-01-05 16:34:57,028 INFO    Thread-54 :2919589 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-05 16:34:57,029 INFO    Thread-54 :2919589 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-01-05 16:34:57,029 INFO    Thread-54 :2919589 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 1
+2023-01-05 16:34:57,029 INFO    Thread-54 :2919589 [wandb_run.py:_restore():1938] restore
+2023-01-05 16:34:57,029 INFO    Thread-54 :2919589 [wandb_run.py:_restore():1944] restore done

@@ -1,0 +1,170 @@
+2023-01-05 16:35:12,496 INFO    StreamThr :2970174 [internal.py:wandb_internal():87] W&B internal server running at pid: 2970174, started at: 2023-01-05 16:35:12.495031
+2023-01-05 16:35:12,498 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: status
+2023-01-05 16:35:12,500 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: status
+2023-01-05 16:35:12,508 DEBUG   SenderThread:2970174 [sender.py:send():303] send: header
+2023-01-05 16:35:12,508 INFO    WriterThread:2970174 [datastore.py:open_for_write():75] open: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/run-rnm8q5ke.wandb
+2023-01-05 16:35:12,908 DEBUG   SenderThread:2970174 [sender.py:send():303] send: run
+2023-01-05 16:35:13,137 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: check_version
+2023-01-05 16:35:13,137 INFO    SenderThread:2970174 [dir_watcher.py:__init__():216] watching files in: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files
+2023-01-05 16:35:13,138 INFO    SenderThread:2970174 [sender.py:_start_run_threads():928] run started: rnm8q5ke with start time 1672954512.501263
+2023-01-05 16:35:13,138 DEBUG   SenderThread:2970174 [sender.py:send():303] send: summary
+2023-01-05 16:35:13,139 INFO    SenderThread:2970174 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:35:13,139 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: check_version
+2023-01-05 16:35:13,202 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: run_start
+2023-01-05 16:35:13,208 DEBUG   HandlerThread:2970174 [system_info.py:__init__():31] System info init
+2023-01-05 16:35:13,209 DEBUG   HandlerThread:2970174 [system_info.py:__init__():46] System info init done
+2023-01-05 16:35:13,209 INFO    HandlerThread:2970174 [system_monitor.py:start():150] Starting system monitor
+2023-01-05 16:35:13,209 INFO    SystemMonitor:2970174 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-05 16:35:13,209 INFO    HandlerThread:2970174 [system_monitor.py:probe():171] Collecting system info
+2023-01-05 16:35:13,213 INFO    SystemMonitor:2970174 [interfaces.py:start():168] Started cpu
+2023-01-05 16:35:13,214 INFO    SystemMonitor:2970174 [interfaces.py:start():168] Started disk
+2023-01-05 16:35:13,214 INFO    SystemMonitor:2970174 [interfaces.py:start():168] Started gpu
+2023-01-05 16:35:13,214 INFO    SystemMonitor:2970174 [interfaces.py:start():168] Started memory
+2023-01-05 16:35:13,215 INFO    SystemMonitor:2970174 [interfaces.py:start():168] Started network
+2023-01-05 16:35:13,247 DEBUG   HandlerThread:2970174 [system_info.py:probe():195] Probing system
+2023-01-05 16:35:13,255 DEBUG   HandlerThread:2970174 [system_info.py:_probe_git():180] Probing git
+2023-01-05 16:35:13,267 DEBUG   HandlerThread:2970174 [system_info.py:_probe_git():188] Probing git done
+2023-01-05 16:35:13,268 DEBUG   HandlerThread:2970174 [system_info.py:probe():241] Probing system done
+2023-01-05 16:35:13,268 DEBUG   HandlerThread:2970174 [system_monitor.py:probe():180] {'os': 'Linux-5.4.0-135-generic-x86_64-with-glibc2.10', 'python': '3.8.8', 'heartbeatAt': '2023-01-05T21:35:13.247696', 'startedAt': '2023-01-05T21:35:12.478265', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/epierson9/learning_from_doctor_and_patient.git', 'commit': 'f3901c10403c408addb2d646aeaa167029b07d5a'}, 'email': 'richa2910@gmail.com', 'root': '/share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient', 'host': 'klara.tech.cornell.edu', 'username': 'rr568', 'executable': '/home/rr568/.conda/envs/icu-benchmark/bin/python', 'cpu_count': 56, 'cpu_count_logical': 56, 'cpu_freq': {'current': 1568.190660714285, 'min': 1000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 1000.046, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.101, 'min': 1000.0, 'max': 4000.0}, {'current': 999.307, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.341, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.194, 'min': 1000.0, 'max': 4000.0}, {'current': 2322.643, 'min': 1000.0, 'max': 4000.0}, {'current': 3431.79, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.037, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.621, 'min': 1000.0, 'max': 4000.0}, {'current': 2701.022, 'min': 1000.0, 'max': 4000.0}, {'current': 1800.785, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.065, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.154, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.578, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.35, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.0, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.274, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.027, 'min': 1000.0, 'max': 4000.0}, {'current': 1500.257, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.663, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.119, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.021, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.821, 'min': 1000.0, 'max': 4000.0}, {'current': 3721.112, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.419, 'min': 1000.0, 'max': 4000.0}, {'current': 2100.055, 'min': 1000.0, 'max': 4000.0}, {'current': 2099.286, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.656, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.215, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.709, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.322, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.328, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.062, 'min': 1000.0, 'max': 4000.0}, {'current': 1001.205, 'min': 1000.0, 'max': 4000.0}, {'current': 1701.764, 'min': 1000.0, 'max': 4000.0}, {'current': 1801.405, 'min': 1000.0, 'max': 4000.0}, {'current': 3731.024, 'min': 1000.0, 'max': 4000.0}, {'current': 1400.373, 'min': 1000.0, 'max': 4000.0}, {'current': 3731.097, 'min': 1000.0, 'max': 4000.0}, {'current': 2800.852, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.728, 'min': 1000.0, 'max': 4000.0}, {'current': 2700.648, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.311, 'min': 1000.0, 'max': 4000.0}, {'current': 3731.279, 'min': 1000.0, 'max': 4000.0}, {'current': 2835.378, 'min': 1000.0, 'max': 4000.0}, {'current': 3731.397, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.268, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.515, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.974, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.241, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.27, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.298, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.092, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.011, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.475, 'min': 1000.0, 'max': 4000.0}, {'current': 1000.018, 'min': 1000.0, 'max': 4000.0}], 'disk': {'total': 79.9609375, 'used': 36.757301330566406}, 'memory': {'total': 1007.5650444030762}}
+2023-01-05 16:35:13,268 INFO    HandlerThread:2970174 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-05 16:35:13,268 INFO    HandlerThread:2970174 [system_monitor.py:probe():184] Publishing system info
+2023-01-05 16:35:13,268 DEBUG   HandlerThread:2970174 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-05 16:35:13,269 DEBUG   HandlerThread:2970174 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-05 16:35:13,269 DEBUG   HandlerThread:2970174 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-05 16:35:14,140 INFO    Thread-13 :2970174 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-summary.json
+2023-01-05 16:35:14,140 INFO    Thread-13 :2970174 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/conda-environment.yaml
+2023-01-05 16:35:14,140 INFO    Thread-13 :2970174 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/requirements.txt
+2023-01-05 16:35:15,866 DEBUG   HandlerThread:2970174 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-05 16:35:15,867 INFO    HandlerThread:2970174 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-05 16:35:15,873 DEBUG   SenderThread:2970174 [sender.py:send():303] send: files
+2023-01-05 16:35:15,873 INFO    SenderThread:2970174 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-05 16:35:15,874 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 16:35:15,874 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 16:35:15,959 DEBUG   SenderThread:2970174 [sender.py:send():303] send: telemetry
+2023-01-05 16:35:16,142 INFO    Thread-13 :2970174 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/conda-environment.yaml
+2023-01-05 16:35:16,142 INFO    Thread-13 :2970174 [dir_watcher.py:_on_file_created():275] file/dir created: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-metadata.json
+2023-01-05 16:35:16,269 INFO    Thread-16 :2970174 [upload_job.py:push():143] Uploaded file /tmp/tmpk16ouwawwandb/g8kiovp0-wandb-metadata.json
+2023-01-05 16:35:29,381 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: resume
+2023-01-05 16:35:29,381 INFO    HandlerThread:2970174 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-05 16:35:29,381 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: pause
+2023-01-05 16:35:29,381 INFO    HandlerThread:2970174 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-05 16:35:29,381 INFO    HandlerThread:2970174 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-05 16:35:29,381 DEBUG   SystemMonitor:2970174 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-05 16:35:29,381 DEBUG   SystemMonitor:2970174 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-05 16:35:29,381 DEBUG   SystemMonitor:2970174 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-05 16:35:29,382 INFO    HandlerThread:2970174 [interfaces.py:finish():175] Joined cpu
+2023-01-05 16:35:29,382 INFO    HandlerThread:2970174 [interfaces.py:finish():175] Joined disk
+2023-01-05 16:35:29,382 INFO    HandlerThread:2970174 [interfaces.py:finish():175] Joined gpu
+2023-01-05 16:35:29,382 INFO    HandlerThread:2970174 [interfaces.py:finish():175] Joined memory
+2023-01-05 16:35:29,382 INFO    HandlerThread:2970174 [interfaces.py:finish():175] Joined network
+2023-01-05 16:35:29,390 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: resume
+2023-01-05 16:35:29,390 INFO    HandlerThread:2970174 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-05 16:35:29,391 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: pause
+2023-01-05 16:35:29,391 INFO    HandlerThread:2970174 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-05 16:35:29,397 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: resume
+2023-01-05 16:35:29,398 INFO    HandlerThread:2970174 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-05 16:35:29,768 DEBUG   SenderThread:2970174 [sender.py:send():303] send: exit
+2023-01-05 16:35:29,768 INFO    SenderThread:2970174 [sender.py:send_exit():442] handling exit code: 0
+2023-01-05 16:35:29,769 INFO    SenderThread:2970174 [sender.py:send_exit():444] handling runtime: 16
+2023-01-05 16:35:29,771 INFO    SenderThread:2970174 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:35:29,771 INFO    SenderThread:2970174 [sender.py:send_exit():450] send defer
+2023-01-05 16:35:29,772 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,772 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-05 16:35:29,772 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 1
+2023-01-05 16:35:29,772 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,772 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-05 16:35:29,772 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 2
+2023-01-05 16:35:29,772 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,772 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-05 16:35:29,772 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 3
+2023-01-05 16:35:29,772 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,772 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-05 16:35:29,772 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-05 16:35:29,772 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 4
+2023-01-05 16:35:29,773 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,773 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-05 16:35:29,773 DEBUG   SenderThread:2970174 [sender.py:send():303] send: summary
+2023-01-05 16:35:29,774 INFO    SenderThread:2970174 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 16:35:29,775 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,775 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-05 16:35:29,775 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 5
+2023-01-05 16:35:29,775 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,775 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-05 16:35:29,775 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,775 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-05 16:35:29,880 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 6
+2023-01-05 16:35:29,880 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,880 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-05 16:35:29,881 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,881 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-05 16:35:29,881 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 7
+2023-01-05 16:35:29,881 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:29,881 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-05 16:35:29,881 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:29,881 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-05 16:35:29,881 INFO    SenderThread:2970174 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-05 16:35:30,145 INFO    SenderThread:2970174 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-summary.json
+2023-01-05 16:35:30,145 INFO    SenderThread:2970174 [dir_watcher.py:_on_file_modified():292] file/dir modified: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/config.yaml
+2023-01-05 16:35:30,145 INFO    SenderThread:2970174 [dir_watcher.py:finish():392] scan: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files
+2023-01-05 16:35:30,145 INFO    SenderThread:2970174 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/config.yaml config.yaml
+2023-01-05 16:35:30,145 INFO    SenderThread:2970174 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-summary.json wandb-summary.json
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/requirements.txt requirements.txt
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/conda-environment.yaml conda-environment.yaml
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [dir_watcher.py:finish():406] scan save: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-metadata.json wandb-metadata.json
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 8
+2023-01-05 16:35:30,146 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:30,146 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-05 16:35:30,146 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-05 16:35:30,146 INFO    SenderThread:2970174 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-05 16:35:30,495 INFO    Thread-17 :2970174 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/config.yaml
+2023-01-05 16:35:30,538 INFO    Thread-20 :2970174 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/conda-environment.yaml
+2023-01-05 16:35:30,538 INFO    Thread-19 :2970174 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/requirements.txt
+2023-01-05 16:35:30,603 INFO    Thread-18 :2970174 [upload_job.py:push():143] Uploaded file /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/files/wandb-summary.json
+2023-01-05 16:35:30,769 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-05 16:35:30,769 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: poll_exit
+2023-01-05 16:35:30,803 INFO    Thread-12 :2970174 [sender.py:transition_state():463] send defer: 9
+2023-01-05 16:35:30,804 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:30,804 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-05 16:35:30,804 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:30,804 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-05 16:35:30,804 INFO    SenderThread:2970174 [file_pusher.py:join():173] waiting for file pusher
+2023-01-05 16:35:30,804 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 10
+2023-01-05 16:35:30,804 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:30,804 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-05 16:35:30,804 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:30,804 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-05 16:35:31,009 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 11
+2023-01-05 16:35:31,009 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:31,009 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-05 16:35:31,009 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:31,009 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-05 16:35:31,009 INFO    SenderThread:2970174 [sender.py:transition_state():463] send defer: 12
+2023-01-05 16:35:31,009 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: defer
+2023-01-05 16:35:31,009 INFO    HandlerThread:2970174 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-05 16:35:31,010 DEBUG   SenderThread:2970174 [sender.py:send():303] send: final
+2023-01-05 16:35:31,010 DEBUG   SenderThread:2970174 [sender.py:send():303] send: footer
+2023-01-05 16:35:31,010 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: defer
+2023-01-05 16:35:31,010 INFO    SenderThread:2970174 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-05 16:35:31,011 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-05 16:35:31,011 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-05 16:35:31,011 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: server_info
+2023-01-05 16:35:31,011 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-05 16:35:31,011 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-05 16:35:31,012 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: poll_exit
+2023-01-05 16:35:31,012 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: poll_exit
+2023-01-05 16:35:31,012 DEBUG   SenderThread:2970174 [sender.py:send_request():317] send_request: server_info
+2023-01-05 16:35:31,165 DEBUG   HandlerThread:2970174 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-05 16:35:31,165 INFO    HandlerThread:2970174 [handler.py:finish():814] shutting down handler
+2023-01-05 16:35:32,010 INFO    WriterThread:2970174 [datastore.py:close():279] close: /share/pierson/selective_labels_data/hirid_data_analysis/richras_dir/learning_from_doctor_and_patient/Stop_Frisk_Notebooks/wandb/run-20230105_163512-rnm8q5ke/run-rnm8q5ke.wandb
+2023-01-05 16:35:32,165 INFO    SenderThread:2970174 [sender.py:finish():1331] shutting down sender
+2023-01-05 16:35:32,165 INFO    SenderThread:2970174 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-05 16:35:32,165 INFO    SenderThread:2970174 [file_pusher.py:join():173] waiting for file pusher
+2023-01-05 16:35:32,167 INFO    MainThread:2970174 [internal.py:handle_exit():77] Internal process exited

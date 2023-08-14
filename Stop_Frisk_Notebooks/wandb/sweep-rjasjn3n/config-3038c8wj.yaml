@@ -1,0 +1,10 @@
+wandb_version: 1
+
+colsample_bytree:
+  value: 0.17503872113665098
+early_stopping_rounds:
+  value: 10
+num_leaves:
+  value: 20
+subsample:
+  value: 0.30304868065748825
