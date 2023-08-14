@@ -25,8 +25,9 @@ conda activate predicting_outcomes
 In the scripts folder, customize the script ```init_env.sh``` for your environment and path. This path is then referenced in ```./scripts/combined_sbatch.sub``` . -->
 
 
-## Examples
+## Usage
 
+AnalysisFuncs.py contains the functions used for pre-processing, model training and analysis
 
 ## Citation
 <!-- If you find this repo useful for your research, please consider citing our paper:
