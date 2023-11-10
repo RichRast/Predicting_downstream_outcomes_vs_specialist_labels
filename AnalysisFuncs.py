@@ -95,7 +95,7 @@ def trainHardPseudo(clf_D_given_T, df, train_idxs, val_idxs, train_X, val_X, clf
         assert train_idxs is None, f" cannot pass both train_idxs and train_y_D"
         train_y_D_pseudo = train_y_D
     else:
-        assert train_idxs is not None, f" cneed to pass one of either train_idxs or train_y_D"
+        assert train_idxs is not None, f" need to pass one of either train_idxs or train_y_D"
         assert train_y_D is None, f" cannot pass both dataframe and train_y_D"
         train_y_D_pseudo = df.iloc[train_idxs]['D'].values
     assert np.isnan(train_y_D_pseudo).sum()>0, f" there were no nans/unobserved samples for outcome"
