@@ -41,9 +41,10 @@ If you find this repo useful for your research, please consider citing our paper
 ```
 @article{rastogi2023,
   author = {Rastogi,Richa and Meister,Michela and Obermeyer,UC and Kleinberg,Jon and Koh,Pang Wei and Pierson,Emma},
-  title = {Learn from the patient, not the doctor:Predicting downstream outcomes versus specialist labels. Working Paper},
-  journal = {Working Paper},
-  year = {2023}
+  title = {Learn from the patient, not the doctor:Predicting downstream outcomes versus specialist labels.},
+  booktitle = {Working Paper},
+  year = {2023},
+  url={https://github.com/RichRast/Predicting_downstream_outcomes_vs_specialist_labels}
 }
 
 ```
