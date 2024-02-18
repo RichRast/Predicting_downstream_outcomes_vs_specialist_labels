@@ -40,7 +40,7 @@ SecondStageAnalysis.ipynb - Evaluation of each of the estimators with the semi s
 If you find this repo useful for your research, please consider citing our paper:
 ```
 @article{rastogi2023,
-  author = {Rastogi,Richa and Meister,Michela and Obermeyer,UC and Kleinberg,Jon and Koh,Pang Wei and Pierson,Emma},
+  author = {Rastogi,Richa and Meister,Michela and Obermeyer,Ziad and Kleinberg,Jon and Koh,Pang Wei and Pierson,Emma},
   title = {Learn from the patient, not the doctor:Predicting downstream outcomes versus specialist labels.},
   booktitle = {Working Paper},
   year = {2023},
